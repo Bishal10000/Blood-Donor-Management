@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 0;
+}
+.header .logo h1 {
+    margin: 0;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header .btn {
+    background-color: white;
+    color: #d32f2f;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Main Section */
+.main-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fbe9e7;
+}
+.main-section h1 {
+    font-size: 2.5em;
+    color: #b71c1c;
+}
+.main-section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Statistics Section */
+.stats-section {
+    background-color: #ffccbc;
+    padding: 30px 0;
+    text-align: center;
+}
+.stats-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.stats .stat {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

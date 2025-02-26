@@ -1,0 +1,133 @@
+body {
+    background-image: url('blood.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: rgba(255, 0, 0, 0.861);
+    width: 330px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+* h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid #000; 
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0003cc;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link {
+    color: rgb(0, 157, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+input[type="radio"] + label {
+    display: inline-block; 
+    margin-bottom: 0; 
+}
+
+.user-type-container label {
+    display: inline; 
+    margin-right: 15px; 
+}
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px; /* Add space for the icon */
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
+.password-wrapper {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .toggle-password:hover {
+    color: #333;
+  }
