@@ -1,0 +1,40 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #3ce792; /* Red tone for header */
+    color: #ffffff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+td a {
+    color: #e74c3c; /* Red for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a.approve {
+    color: #28a745; /* Green for approve */
+}
+
+td a.reject {
+    color: #dc3545; /* Red for reject */
+}
+
+td a:hover {
+    text-decoration: underline;
+}

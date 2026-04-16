@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('register.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(241, 60, 60, 0.884);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box {
+    padding: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+.field input,
+.field select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field input:focus,
+.field select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links a {
+    color: #ffee00;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+h1 {
+    color: rgb(255, 208, 0); /* Set the text color to red */
+    font-size: 36px; /* Adjust the font size as needed */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #ff4d4d; /* Custom checkbox color */
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 10px 3px #ff4d4d; /* Add glowing effect for selected */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60000; /* Darker hover effect */
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between checkboxes and labels */
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Makes labels clickable */
+    font-size: 16px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px; 
+}
+        .password-wrapper {
+            position: relative;
+        }
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #666;
+        }
